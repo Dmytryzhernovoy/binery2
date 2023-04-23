@@ -1,0 +1,244 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #ffff;
+
+}
+
+.viewpage {	
+	background: url("../New/bg2.png")no-repeat #5555;
+	background-size: cover;
+  	background-position: center;
+	background-blend-mode:hard-light;
+	&__logo {
+		padding: 100px 0 0 0 ;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 100px;}
+	&__text {
+		text-align: center;
+		color: #ffff;}
+	&__maintext {
+		margin-bottom: 15px;
+		p{
+			font-family: 'Bruno Ace SC', cursive;
+			font-size: 32px;
+			font-weight: 900;
+		}}
+	&__secondtext {
+		padding: 0 0 30px 0;
+		border-bottom:3px solid #fff;
+		width: 400px;
+		margin: 0 auto;
+		
+		p{
+			font-family: 'Bruno Ace SC', cursive;
+			font-size: 22px;
+			font-weight: 300;
+		}}
+	&__moreinform {
+		margin-top: 100px;
+		height: 100px;
+		text-align: center;
+		a{
+			text-decoration: none;
+			color:#ffff;
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: 16px;
+			padding: 10px 30px;
+			border: 1px solid #ffff;
+			&:hover{
+				background-color:#DCD943 ;
+			}
+			&:active{
+				background-color:#48CA3E ;
+			}
+		}
+		img{
+			margin-top: 50px;
+		}}}
+
+.header {
+	margin-top: 0px;
+	height: 50px;
+	box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.3);
+	&__main {
+
+		ul{
+			display: flex;
+			justify-content: center;
+			line-height: 50px;
+		}
+		li{
+			margin: 0 20px;
+			&:first-child a {
+			color: #ada074;
+		}
+		}
+		a{
+
+			font-weight: 400;
+			font-size: 16px;
+			text-decoration: none;
+			color: #000;
+			text-transform: uppercase;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.aboutpage {
+	max-width: 800px;
+	margin: 0 auto;
+	line-height: 2;
+	&__1-block {
+		margin:125px 0 50px 0;
+	}
+	&__tittle {
+		width: 	300px;
+		margin: 0 auto;
+		border-bottom: 2px solid;
+		p{
+			font-weight: 700;
+			font-size: 36px;
+			text-transform: uppercase;
+			text-align: center;
+
+
+		}
+	}
+	&__subtittle {
+		max-width: 660px;
+		margin: 0 auto;
+		text-align: center;
+		p{
+			margin: 60px 0 0 0;
+			color: #8F8F8F;
+			font-size: 16px;
+			font-weight: 300;
+
+		}
+	}
+	&__2-block {
+		max-width: 800px;
+		margin: 0 auto;
+
+	}
+	&__colomnblock {
+		display:flex;
+		margin: 0 30px;
+		flex:0 0 33.333%;
+		margin: 0 20px;
+
+	}
+	&__insidecolomn {
+		display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    padding:0 20px;
+	    margin: 0 0 75px 0;
+
+	}
+	&__icon {
+		background: url("../New/circle.png")center no-repeat;
+		border-radius: 50%;
+		padding: 30px;
+	}
+	&__icon-3{
+		margin: 0 0 0 10px;
+	}
+	&__colomntittle {
+		margin-top: 20px;
+		font-weight: 600;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	&__colomnsubtittle {
+		margin-top: 20px;
+		text-align: center;
+		color: #8F8F8F;
+	}
+}
+
+.portfoliopage {
+	background: url("../New/bg-gray.png")center/cover;
+
+	&__1-block {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	&__tittle {
+		padding: 100px 0 30px 0;
+		width: 	300px;
+		margin: 0 auto;
+		border-bottom: 2px solid;
+		p{
+			font-weight: 700;
+			font-size: 36px;
+			text-transform: uppercase;
+			text-align: center;
+
+	}}
+	&__nav {
+		margin-top: 30px;
+		margin-bottom: 100px;
+		ul{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		li{
+			padding: 0 30px;
+		}
+		a{
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #000;
+			font-weight: 400;
+			font-size: 16px;
+		}
+	}
+	&__2-block {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+	&__content {
+		background: url("../New/gray-squard.png")center;
+		width: 448px;
+		height: 304px;
+		margin: 10px;
+	}
+	&__3-block {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 50px;
+		a{
+			text-decoration: none;
+			color:#000;
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: 16px;
+			padding: 10px 30px;
+			border: 1px solid #000;
+			&:hover{
+				background-color:#DCD943 ;
+			}
+			&:active{
+				background-color:#48CA3E ;
+			}
+		}
+
+		} 
+}	
+
+
+
